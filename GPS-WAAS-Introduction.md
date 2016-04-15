@@ -2,7 +2,8 @@
 
 ---
 
-# WAAS Logo
+background-image: url(Images/waaslogo.jpg)
+background-size: 100% auto;
 
 ---
 
@@ -35,12 +36,9 @@
 [//]: # (Markdown has no comment character, so this is a comment)
 [//]: # (.center[![BryceCanyon](03983_mountrundle_3840x2160.jpg)])
 [//]: # (center[![:scale 80%](03983_mountrundle_3840x2160.jpg)])
-[//]: # (![](03983_mountrundle_3840x2160.jpg =384x216))
-
-<br>
-<img src="03983_mountrundle_3840x2160.jpg" alt="Mountain" style="width: 650px;" align="left"/>
 
 ---
+
 background-image: url(03983_mountrundle_3840x2160.jpg)
 background-size: 100% auto;
 
@@ -52,12 +50,20 @@ background-size: 100% auto;
 ---
 
 # ILS Characteristics and Terms
+.center[![:scale 100%](Images/ILS/ILS-Overview.png)]
+
+???
+
 * Localizer (LOC)
 * Glide Slope (GS)
 * Middle Marker (MM)
 * Outer Marker (OM)
-
 ---
+# Categories of Landing
+
+.center[![:scale 100%](Images/ILS/ILS-Langing-Categories.png)]
+
+???
 
 # Categories of Landing
 * CAT1  2400 ft. RVR 200 ft. Decision Height
@@ -77,24 +83,38 @@ background-size: 100% auto;
 ---
 
 # Approach LAX
+.center[![:scale 100%](Images/LAX-Approach.png)]
 
 ---
 
 # Why GPS/WAAS? (Cont.)
 * Victor airways are not direct
 
+.center[![:scale 75%](Images/ILS/Victor Airway Routes.png)]
+
 ---
 
 # Kotzebue, VOR
+.center[![:scale 70%](Images/VOR-Kotzebue.png)]
 
 ---
 
-# Kodiak, Alaska: Runway 25 Centerline (from Alaska Air)
-## Decision Height Determined by Missed Approach Missed Approach Is Climbing Left Hand Turn
+# Kodiak, Alaska
+Runway 25 Centerline (from Alaska Air)
+
+.center[![:scale 60%](Images/Kodiak, AK - Runway 25.jpg)]
+
+Decision Height Determined by Missed Approach Missed Approach Is Climbing Left Hand Turn
 
 ---
 
 # WHY GPS/WAAS? (Cont.)
+
+.center[![:scale 80%](Images/Why WAAS.png)]
+
+
+???
+
 * **Primary Means of Navigation** - Takeoff, Enroute, Approach and Landing
 * **More Direct Routes** - Not Restricted by Location of Ground-Based Navigation Equipment
 * **Approach with Vertical Guidance Capability** at Any Qualified U.S. Airport
@@ -105,6 +125,7 @@ background-size: 100% auto;
 ---
 
 # GPS Description
+
 * Space based radio navigation system providing:
   * Precise position
   * Continuous worldwide coverage
@@ -121,7 +142,10 @@ background-size: 100% auto;
 
 ---
 
+background-image: url(Images/GPS/GPS-Constellation.jpg)
+
 # GPS Description (Cont.)
+
 * Space Segment Operational constellation
   * The current GPS constellation consists of 32 satellites.
   * The GPS constellation is updated every working day.
@@ -135,6 +159,9 @@ background-size: 100% auto;
 
 # GPS Description (Cont.)
 * Space Segment Operational constellation (Cont.)
+
+.center[![:scale 100%](Images/GPS/GPS-Orbital-Planes.jpg)]
+
 ---
 
 # GPS Description (Cont.)
@@ -155,29 +182,42 @@ background-size: 100% auto;
 ---
 
 # GPS Description (Cont.)
+
+.center[![:scale 75%](Images/GPS Aircraft.png)]
+
 * User measures satellite to users ranges (R1, R2, R3, R4)
 * User has data about satellite location (P1, P2, P3, P4)
 * GPS Position Determination Technique
 ---
 
 # GPS Description (Cont.)
-* Single Satellite Ranging
-  * With a single distance measurement, the user may be anywhere on the sphere determined by the position of the satellite of the radius.
----
+* **Single Satellite Ranging**
+* With a single distance measurement, the user may be anywhere on the sphere determined by the position of the satellite of the radius.
 
-# GPS Description (Cont.)
-* Two Satellite Ranging
-  * With the distance measurement from two satellites, the user's position may be anywhere on the intersections of the spheres.
+.center[![:scale 50%](Images/GPS 1 Sphere.png)]
 
 ---
 
 # GPS Description (Cont.)
-* Three Satellite Ranging
-  * Using the distance measurement from three different satellites, the user's position may be at two points of the intersections of three spheres.
+* **Two Satellite Ranging**
+* With the distance measurement from two satellites, the user's position may be anywhere on the intersections of the spheres.
+
+.center[![:scale 95%](Images/GPS 2 Spheres.png)]
 
 ---
 
 # GPS Description (Cont.)
+* **Three Satellite Ranging**
+* Using the distance measurement from three different satellites, the user's position may be at two points of the intersections of three spheres.
+
+.center[![:scale 62%](Images/GPS 3 Spheres.png)]
+
+---
+
+# GPS Description (Cont.)
+
+.center[![:scale 75%](Images/GPS Aircraft.png)]
+
 * User Clock Bias Errors
   * Synchronization between satellite and receiver clock is critical. Clock bias is calculated using four satellites.
   * 1/1000 second = 186 miles of error
@@ -194,6 +234,9 @@ background-size: 100% auto;
 ---
 
 # Spread Spectrum
+
+.center[![:scale 70%](Images/Spread Spectrum.png)]
+
 * Fc = chipping rate
 * Fs = bit rate of data
 * Process gain = Fc/ Fs
@@ -203,6 +246,10 @@ background-size: 100% auto;
 ---
 
 # Spread spectrum (Cont.)
+
+.center[![:scale 80%](Images/Spread-Spectrum-Signal.png)]
+
+???
 
 |Name | Carrier Frequency   |
 |-----|:-------------------:|
