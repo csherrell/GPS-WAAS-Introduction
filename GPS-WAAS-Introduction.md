@@ -1,9 +1,12 @@
 # GPS / WAAS Introduction
 
 ---
+[//]: # (background-image: url(Images/waaslogo.jpg))
+[//]: # (background-size: 100% auto;)
 
-background-image: url(Images/waaslogo.jpg)
-background-size: 100% auto;
+<br><br>
+
+.center[![:scale 100%](Images/waaslogo.jpg)]
 
 ---
 
@@ -142,8 +145,6 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 ---
 
-background-image: url(Images/GPS/GPS-Constellation.jpg)
-
 # GPS Description (Cont.)
 
 * Space Segment Operational constellation
@@ -154,6 +155,9 @@ background-image: url(Images/GPS/GPS-Constellation.jpg)
   * 20,200 Km (10,900 NM) orbit
   * Orbit takes 12 hours
   * Almost circular orbits
+
+
+.center[![:scale 40%](Images/GPS/GPS-Constellation.jpg)]
 
 ---
 
@@ -282,9 +286,14 @@ Navigation Data at 50 bps
 # GPS Signal Characteristics (Cont.)
 ## Signal Generation
 
+.center[![:scale 50%](Images/GPS-Signal-Characteristics.jpg)]
+
 ---
 
 # GPS Signal Characteristics (Cont.)
+
+.center[![:scale 50%](INSERT IMAGE)]
+
 * Binary Phase Shift Keying
   * Unmodulated Carrier
   * Two Bits From Data Stream
@@ -402,7 +411,8 @@ Almanac is also provided which gives the approximate data for each active satell
 
 ---
 
-# GPS Capabilities - System Modes
+# GPS Capabilities
+## System Modes
 * Continuous Service
   * All algorithms performed
   * All messages broadcast
@@ -412,7 +422,7 @@ Almanac is also provided which gives the approximate data for each active satell
 
 ---
 
-# GPS Capabilities - Selective Availability
+# GPS Capabilities
 ## Selective Availability (SA)
 The denial of full accuracy, is accomplished by manipulating navigation message orbit data (epsilon) and/or satellite clock frequency (dither)
 
@@ -484,6 +494,8 @@ Composite Clock all operational Monitor Station and Satellite frequency standard
 * Can be determined by measuring two different freq L1 and L2
 * “Codeless” receivers can measure Ionospheric delay without knowledge of the Y code
 
+.center[![:scale 40%](Images/GPS_Ionospheric_Delay.jpg)]
+
 ---
 
 # Safety Is Paramount
@@ -494,7 +506,8 @@ Composite Clock all operational Monitor Station and Satellite frequency standard
 ---
 
 # GPS Protection and Alarm
-* INSERT PICTURE
+
+.center[![:scale 100%](Images/GPS Protection Levels and Alert Limits.png)]
 
 ---
 
@@ -535,21 +548,32 @@ User Calculates VPL and HPL
 ---
 
 # How WAAS Works
+
+.center[![:scale 90%](Images/WAAS-Architecture-1-WRS.PNG)]
+
 * **Reference Stations (WRSs)** monitor all satellites
 * The Collected Data is Forwarded to Central Locations - WAAS Master Stations (WMSs)
+
 
 ---
 
 # How WAAS Works (Cont.)
+
+.center[![:scale 87%](Images/WAAS-Architecture-2-WMS.PNG)]
+
 * Master Stations (WMSs):
   * Compute Corrections
   * Monitor Integrity
   * Generate Messages For Transmission to the Users (via GUS)
   * Monitor and Control the WAAS
 
+
 ---
 
 # How WAAS Works (Cont.)
+
+.center[![:scale 87%](Images/WAAS-Architecture-3-GUS.PNG)]
+
 * Ground Uplink Systems (GUS)
   * Uplink Messages to the GEOs
   * Control the GEO Ranging Control Loop
@@ -558,6 +582,9 @@ User Calculates VPL and HPL
 ---
 
 # How WAAS Works (Cont.)
+
+.center[![:scale 50%](Images/TCS.png)]
+
 * Terrestrial Communications Network (TCN)
   * Backbone Network Consists of 4 Routers Interconnected By Dedicated T1 Telecommunications Lines
   * WMSs Are Co-located at Backbone Nodes
@@ -566,6 +593,11 @@ User Calculates VPL and HPL
 ---
 
 # WAAS Architecture
+
+.center[![:scale 100%](Images/WAAS Architecture.PNG)]
+
+???
+
 * WAAS Reference Station
    * Collect GPS Navigation Data
    * Collect GEO Navigation Data
@@ -629,6 +661,7 @@ User Calculates VPL and HPL
 ---
 
 # WAAS System Diagram
+.center[![:scale 100%](Images/WAAS System Diagram.png)]
 
 ---
 
@@ -642,10 +675,14 @@ User Calculates VPL and HPL
 ---
 
 # WAAS/GUS Architecture (Cont.)
-
+.center[![:scale 90%](Images/WAAS.jpg)]
 ---
 
-# WAAS/GUS Architecture - WAAS Block Diagram
+# WAAS/GUS Architecture
+
+WAAS Block Diagram
+
+.center[![:scale 75%](Images/WAAS-GUS-Architecture Block Diagram.jpg)]
 
 ---
 
@@ -746,6 +783,11 @@ User Calculates VPL and HPL
 ---
 
 # Ephemeris Representation
+
+.center[![:scale 100%](Images/Ephemeris Representation.png)]
+
+???
+
 * Equatorial Plane
 * Perogee
 * Toward Vernal Equinox
