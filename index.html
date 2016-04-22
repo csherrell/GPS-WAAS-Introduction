@@ -8,17 +8,38 @@
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
       @import url(https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/css/jquery-ui.min.css);
-      body { font-family: 'Droid Serif'; }
+      body {
+        background-color: #e0e4ff;
+        font-family: 'Droid Serif';
+      }
       h1, h2, h3 {
         font-family: 'Yanone Kaffeesatz';
         font-weight: normal;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-container {
+        background-color: black;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+      }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+        left: 4em;
+      }
+      .footer {
+        position: absolute;
+        bottom: 1em;
+        left: 4em;
+      }
     </style>
   </head>
   <body>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
     </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
     <script>
       remark.macros.scale = function (percentage) {
           var url = this;
@@ -27,6 +48,19 @@
       var slideshow = remark.create({
         sourceUrl: 'GPS-WAAS-Introduction.md'
       });
+      // Setup MathJax
+      MathJax.Hub.Config({
+          tex2jax: {
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+      });
+      MathJax.Hub.Queue(function() {
+          $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+              return(elem.SourceElement());
+          }).parent().addClass('has-jax');
+      });
+
+      MathJax.Hub.Configured();
     </script>
   </body>
 </html>

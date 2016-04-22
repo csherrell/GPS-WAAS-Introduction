@@ -1,38 +1,41 @@
-# GPS / WAAS Introduction
-
+class: inverse
+layout: true
+.footer[Introduction to GPS/WAAS]
 ---
-[//]: # (background-image: url(Images/waaslogo.jpg))
-[//]: # (background-size: 100% auto;)
 
-<br><br>
-
+# GPS / WAAS Introduction
 .center[![:scale 100%](Images/waaslogo.jpg)]
 
 ---
 
-# Schedule of Presentations
+# Transparent Images
+.center[![:scale 100%](Images/transparent.png)]
 
-1. Introduction -  GPS / WAAS
-1. Technical Instruction Book (TIB) Overview
-1. WRS Type 1 Introduction
-1. Terrestrial Communications System (TCS)
-1. WRS Fault Isolation
-1. WRS Configuration
-1. Operations and Maintenance (O&M)
-1. Geo Uplink Subsystem type 1
+## Source code for this presentation
+https://github.com/csherrell/GPS-WAAS-Introduction/tree/gh-pages
+* GPS-WAAS-Introduction.md has the content
+* index.html contains the style
 
-???
+---
 
-# Some notes about how long this will take.
-* I guess my Notes
-* Can use Markdown too
+# Playing with `\(\LaTeX{}\)`
+## Display and Inline
+
+1. This is an inline integral: `\(\int_a^bf(x)dx\)`
+2. More `\(x={a \over b}\)` formulae.
+
+Display formula:
+
+$$e^{i\pi} + 1 = 0$$
+
+.footnote[\* This is a really long foot note.  I need to see what happens then the line wraps around and around]
 
 ---
 
 # This briefing consists of:
 * Why GPS/WAAS?
 * GPS Description
-* GPS SIGNAL CHARACTERISTICS
+* GPS Signal Characteristics
 * GPS Navigation Message
 * GPS Capabilities
 
@@ -42,13 +45,14 @@
 
 ---
 
-background-image: url(03983_mountrundle_3840x2160.jpg)
-background-size: 100% auto;
-
 # WHY GPS/WAAS?
 * Retirement of VORs and Cat 1 ILSs.
-* More direct routing – Saving Fuel and Time.
-* With WAAS, LNAV/VNAV (Lateral Navigation/Vertical Navigation) instrument landing capability is available at airports that do not have ILS
+* More Direct Routing – Saving Fuel and Time.
+* With WAAS, LNAV/VNAV (Lateral Navigation/Vertical Navigation) - Instrument landing capability is available at airports that do not have ILS
+
+???
+
+Add Updates WAAS Approach Counts from Debora Lawrence presentation.
 
 ---
 
@@ -61,7 +65,9 @@ background-size: 100% auto;
 * Glide Slope (GS)
 * Middle Marker (MM)
 * Outer Marker (OM)
+
 ---
+
 # Categories of Landing
 
 .center[![:scale 100%](Images/ILS/ILS-Langing-Categories.png)]
@@ -83,6 +89,9 @@ background-size: 100% auto;
 | IIIb | No DH or DH below 50 feet  | Less than 700 feet but not less than 150 feet|
 | IIIc | No DH | No RVR Limitation|
 
+* GPS is simply not accurate enough to replace ILS systems. Typical accuracy is about 15 metres (49 ft), whereas even a "CAT I" approach, the least demanding, requires a vertical accuracy of 4 metres (13 ft).
+   * https://en.wikipedia.org/wiki/Wide_Area_Augmentation_System#History_and_development
+ * http://instrument.landingsystem.com/
 ---
 
 # Approach LAX
@@ -129,11 +138,11 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 # GPS Description
 
-* Space based radio navigation system providing:
-  * Precise position
-  * Continuous worldwide coverage
-  * Passive, unlimited number of users
-  * All weather operation
+* Space Based Radio Navigation System Providing:
+  * Precise Position
+  * Continuous Worldwide Coverage
+  * Passive, Unlimited Number of Users
+  * All Weather Operation
 
 ---
 
@@ -147,10 +156,10 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 # GPS Description (Cont.)
 
-* Space Segment Operational constellation
+* Space Segment Operational Constellation
   * The current GPS constellation consists of 32 satellites.
   * The GPS constellation is updated every working day.
-* Orbital characteristics:
+* Orbital Characteristics:
   * 6 orbital planes (55 degree declination)
   * 20,200 Km (10,900 NM) orbit
   * Orbit takes 12 hours
@@ -158,6 +167,17 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 
 .center[![:scale 40%](Images/GPS/GPS-Constellation.jpg)]
+
+???
+
+* http://www.usno.navy.mil/USNO/time/gps/current-gps-constellation
+* ftp://tycho.usno.navy.mil/pub/gps/gpstd.txt
+* Expandable-24
+   * http://www.schriever.af.mil/news/story.asp?id=123260251
+   * http://gpsworld.com/the-almanac/
+   * The constellation is in the 24+3 (or “Expandable 24”) configuration with
+     satellites occupying the fore and aft bifuracted slots in the B, D, and F
+     planes.
 
 ---
 
@@ -169,9 +189,22 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 ---
 
 # GPS Description (Cont.)
-* Control Segment
-  * Ground stations monitor the GPS satellites, checking operational health and their exact position. The master ground station transmits corrections for the satellite's ephemeris constants and clock offsets back to the satellites themselves. The satellites can then incorporate these updates in the signals they send to GPS receivers.
-  * There are five monitor stations: Hawaii, Ascension Island, Diego Garcia, Kwajalein, and Colorado Springs.
+## Control Segment
+  * GPS Ground Monitoring Stations
+     * Checking Operational Health
+     * Check Exact Position
+  * Master Control Station
+       * Transmits corrections for the satellite's:
+          * Ephemeris Constants
+          * Clock Offsets
+          * Back to the satellites themselves
+          * Incorporate update broadcast to GPS receivers
+  * (!UPDATE!) There are six monitor stations: Hawaii, Ascension Island, Diego Garcia, Kwajalein, and Colorado Springs, Cape Canaveral
+
+???
+
+* http://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/gps/controlsegments/
+* http://www.navipedia.net/index.php/GPS_Ground_Segment
 
 ---
 
@@ -182,6 +215,12 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
   * Automobiles
   * Cell phones
   * Personal Navigation, etc.
+  * Timing
+
+???
+
+* http://www.locata.com/applications-of-gps/civilian-applications/
+* http://www.gps.gov/applications/timing/
 
 ---
 
@@ -189,9 +228,14 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 .center[![:scale 75%](Images/GPS Aircraft.png)]
 
-* User measures satellite to users ranges (R1, R2, R3, R4)
+* User measures range to satellites (R1, R2, R3, R4)
 * User has data about satellite location (P1, P2, P3, P4)
 * GPS Position Determination Technique
+
+???
+* http://electronics.howstuffworks.com/gadgets/travel/gps.htm
+* http://electronics.howstuffworks.com/gadgets/travel/gps3.htm
+
 ---
 
 # GPS Description (Cont.)
@@ -223,7 +267,8 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 .center[![:scale 75%](Images/GPS Aircraft.png)]
 
 * User Clock Bias Errors
-  * Synchronization between satellite and receiver clock is critical. Clock bias is calculated using four satellites.
+  * Synchronization between satellite and receiver clock is critical
+  * User clock bias is calculated using four satellites.
   * 1/1000 second = 186 miles of error
 ---
 
