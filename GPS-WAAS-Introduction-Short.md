@@ -85,6 +85,7 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
     * Accuracy
     * Integrity
     * Availability
+* At its core WAAS is a realtime sensor network
 
 ---
 
