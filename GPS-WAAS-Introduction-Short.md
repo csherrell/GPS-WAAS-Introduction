@@ -6,8 +6,9 @@ layout: true
 ---
 
 # GPS / WAAS Introduction
-.center[![:scale 100%](Images/waaslogo.jpg)]
-
+.center[![:scale 80%](Images/waaslogo.jpg)]
+Follow along on you mobile device<br>
+http://csherrell.github.io/GPS-WAAS-Introduction/GPS-WAAS-Introduction-Short.html
 ---
 
 # Questions to Ponder and Answer
@@ -150,9 +151,19 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 ---
 
 # .center[Questions?]
-.center[![:scale 60%](Images/WAAS.jpg)]
+.center[![:scale 36%](Images/WAAS.jpg)]
 
 * Presentation done using Markdown + remark.js + GitHub Pages
     * https://en.wikipedia.org/wiki/Markdown
     * http://remarkjs.com/
     * https://pages.github.com/
+* This presentation:
+    * http://csherrell.github.io/GPS-WAAS-Introduction/GPS-WAAS-Introduction-Short.html
+* Source Code
+    * http://github.com/csherrell/GPS-WAAS-Introduction.git
+    * Switch to gh-pages branch
+
+```
+
+
+```
