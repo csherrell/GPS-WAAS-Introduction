@@ -81,7 +81,7 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 * Space Based Differential GPS System
     * Detects and corrects GPS errors
-    * Monitors and correct ionospheric delay
+    * Monitors and corrects for ionospheric delay
 * Augments GPS and improves:
     * Accuracy
     * Integrity
