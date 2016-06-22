@@ -10,10 +10,10 @@ layout: true
 
 ---
 
-# Questions to ponder and answer.
+# Questions to Ponder and Answer
 
-* Why Yet Another Navigation System?
-    * What are the benefits over of other systems?
+* Why yet another navigation system?
+    * What are the benefits over other systems?
 * What is WAAS?
 * Why can't we just use GPS?
 * What does WAAS do, really?
@@ -79,7 +79,7 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 # What is WAAS?
 
 * Space Based Differential GPS System
-    * Detects and corrects GPS errors.
+    * Detects and corrects GPS errors
     * Monitors and correct ionospheric delay
 * Augments GPS and improves:
     * Accuracy
@@ -134,7 +134,6 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 # WAAS Architecture
 .center[![:scale 78%](Images/WAAS.jpg)]
-.center[Questions?]
 
 ---
 
@@ -149,5 +148,5 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 ---
 
-# Questions?
+# .center[Questions?]
 .center[![:scale 78%](Images/WAAS.jpg)]
