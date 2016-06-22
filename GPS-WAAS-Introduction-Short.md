@@ -149,4 +149,9 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 ---
 
 # .center[Questions?]
-.center[![:scale 78%](Images/WAAS.jpg)]
+.center[![:scale 60%](Images/WAAS.jpg)]
+
+* Presentation done using Markdown + remark.js + GitHub Pages
+    * https://en.wikipedia.org/wiki/Markdown
+    * http://remarkjs.com/
+    * https://pages.github.com/
