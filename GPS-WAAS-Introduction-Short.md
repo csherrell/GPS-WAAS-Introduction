@@ -43,6 +43,10 @@ http://csherrell.github.io/GPS-WAAS-Introduction/GPS-WAAS-Introduction-Short.htm
 
 .center[![:scale 70%](Images/ILS/Victor Airway Routes.png)]
 
+???
+
+# Notes:
+
 ---
 
 # Why GPS and WAAS?
@@ -58,6 +62,12 @@ Runway 25 Centerline (from Alaska Air)
 
 Decision Height Determined by Missed Approach Missed Approach Is Climbing Left Hand Turn
 
+???
+
+# Notes:
+
+The approach at Kodiak, Alaska is straight into the base of a mountain. There is a missed approach route that is a climbing left hand turn through the valley of two mountain ranges. WAAS can provide the approach and missed approach vectors without any infrastructure at that facility.
+
 ---
 
 # Why GPS and WAAS?
@@ -68,6 +78,13 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 
 # Kotzebue, VOR
 .center[![:scale 65%](Images/VOR-Kotzebue.png)]
+
+???
+
+# Notes:
+
+WAAS has redundancy build into every subsystem. Unlike many other ground based Navigational Aids a loss of a subsystem does not mean a loss of WAAS service.  If a VOR or ILS goes down then service in that area is lost until the navaid is restored.  This means that field maintainers may need to be out in the field in adverse weather conditions to restore service.  Though it's not optimal WAAS can run in a degraded state until conditions are suitable for the restoration. 
+
 
 ---
 
@@ -82,6 +99,7 @@ Decision Height Determined by Missed Approach Missed Approach Is Climbing Left H
 * Space Based Differential GPS System
     * Detects and corrects GPS errors
     * Monitors and corrects for ionospheric delay
+    * Provides additional ranging source for improved availability of navigation services
 * Augments GPS and improves:
     * Accuracy
     * Integrity
