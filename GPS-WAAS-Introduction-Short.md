@@ -9,6 +9,19 @@ layout: true
 .center[![:scale 80%](Images/waaslogo.jpg)]
 Follow along on you mobile device<br>
 http://csherrell.github.io/GPS-WAAS-Introduction/GPS-WAAS-Introduction-Short.html
+
+???
+
+When the presentation is going:
+* 'p' puts you in presenter mode which has notes or a place to add notes.
+* 'c' will clone the screen so that you can put it on another monitor.
+* You can print to PDF.
+
+
+* Navigation
+  * Next => Down Arrow Key/Right Arrow Key/Mouse Wheel Down.
+  * Previous => Up Arrow Key/Left Arrow Key/Mouse Wheel Up.
+
 ---
 
 # Questions to Ponder and Answer
@@ -35,6 +48,27 @@ http://csherrell.github.io/GPS-WAAS-Introduction/GPS-WAAS-Introduction-Short.htm
 * **Decommission of Older, Expensive Ground-Based Navigation Equipment** - Reduced Maintenance Costs
 * **Simplify and Reduce Equipment on Board Aircraft**
 * **Increase Capacity** - Reduced Separation Due to Improved Accuracy
+
+There is a picturized list of benefits under "Why GPS and WAAS," which is a repeating slide.
+
+* The flow is talk about first two point:
+  * Primary Means of Navigation - Takeoff, Enroute, Approach and Landing
+  * More Direct Routes - Not Restricted by Location of Ground-Based Navigation Equipment
+* Next Slide
+  * Victor airways are not direct
+* Next
+  * Approach with Vertical Guidance Capability at Any Qualified U.S. Airport
+* Next
+  * Approach/Departure with an example of a place that it's hard to have infrastructure.
+* Next
+  * Decommission of Older, Expensive Ground-Based Navigation Equipment - Reduced Maintenance Costs
+* Next
+  * Kotzebue, AK VOR
+* Next
+  * Simplify and Reduce Equipment on Board Aircraft
+    Increase Capacity - Reduced Separation Due to Improved Accuracy
+* Next and continue on.
+
 
 ---
 
@@ -83,7 +117,7 @@ The approach at Kodiak, Alaska is straight into the base of a mountain. There is
 
 # Notes:
 
-WAAS has redundancy build into every subsystem. Unlike many other ground based Navigational Aids a loss of a subsystem does not mean a loss of WAAS service.  If a VOR or ILS goes down then service in that area is lost until the navaid is restored.  This means that field maintainers may need to be out in the field in adverse weather conditions to restore service.  Though it's not optimal WAAS can run in a degraded state until conditions are suitable for the restoration. 
+WAAS has redundancy build into every subsystem. Unlike many other ground based Navigational Aids a loss of a subsystem does not mean a loss of WAAS service.  If a VOR or ILS goes down then service in that area is lost until the navaid is restored.  This means that field maintainers may need to be out in the field in adverse weather conditions to restore service.  Though it's not optimal WAAS can run in a degraded state until conditions are suitable for the restoration.
 
 
 ---
