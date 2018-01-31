@@ -83,7 +83,7 @@ The approach at Kodiak, Alaska is straight into the base of a mountain. There is
 
 # Notes:
 
-WAAS has redundancy build into every subsystem. Unlike many other ground based Navigational Aids a loss of a subsystem does not mean a loss of WAAS service.  If a VOR or ILS goes down then service in that area is lost until the navaid is restored.  This means that field maintainers may need to be out in the field in adverse weather conditions to restore service.  Though it's not optimal WAAS can run in a degraded state until conditions are suitable for the restoration. 
+WAAS has redundancy build into every subsystem. Unlike many other ground based Navigational Aids a loss of a subsystem does not mean a loss of WAAS service.  If a VOR or ILS goes down then service in that area is lost until the navaid is restored.  This means that field maintainers may need to be out in the field in adverse weather conditions to restore service.  Though it's not optimal WAAS can run in a degraded state until conditions are suitable for the restoration.
 
 
 ---
@@ -158,7 +158,6 @@ WAAS has redundancy build into every subsystem. Unlike many other ground based N
 ---
 
 # Where is WAAS used?
-
 * As of May 26, 2016
     * There are 3,678 WAAS Localizer Performance with Vertical guidance (LPV) approach procedures serving 1790 airports.
     * 1041 of these airports are Non-ILS airports.
