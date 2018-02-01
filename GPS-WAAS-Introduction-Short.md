@@ -191,8 +191,14 @@ WAAS has redundancy build into every subsystem. Unlike many other ground based N
 
 ---
 
+# WAAS GEO Footprint
+.center[![:scale 100%](Images/CRE_CRW_GEO5_cylindrical.png)]
+
+---
+
 # Where is WAAS used?
 * As of May 26, 2016
+* Test
     * There are 3,678 WAAS Localizer Performance with Vertical guidance (LPV) approach procedures serving 1790 airports.
     * 1041 of these airports are Non-ILS airports.
     * Currently, there are also 609 Localizer Performance (LP) approach procedures in the U.S. serving 452 airports.
