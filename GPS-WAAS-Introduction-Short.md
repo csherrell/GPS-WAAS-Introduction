@@ -5,10 +5,11 @@ layout: true
 </span></div>
 ---
 
-# GPS / WAAS Introduction
-.center[![:scale 80%](Images/waaslogo.jpg)]
-Follow along on you mobile device<br>
-http://csherrell.github.io/GPS-WAAS-Introduction/GPS-WAAS-Introduction-Short.html
+  
+.center[![:scale 103%](Images/WAAS Logo with QRCode.jpg)]
+Scan QRCode to follow along on you mobile device<br>
+http://csherrell.github.io/GPS-WAAS-Introduction/GPS-WAAS-Introduction-Short.html  
+"p" to toggle notes
 
 ???
 
